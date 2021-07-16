@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20210119
+FROM ubuntu:20.10
 # If you update the base image above, make sure to also update
 # build/toolchains/toolchainbuild/buildtoolchains.sh accordingly.
 
