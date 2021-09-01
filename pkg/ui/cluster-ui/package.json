@@ -43,7 +43,7 @@
     "@cockroachlabs/icons": "0.3.0",
     "@cockroachlabs/ui-components": "0.2.19-alpha.2",
     "@popperjs/core": "^2.4.0",
-    "@reduxjs/toolkit": "^1.5.0",
+    "@reduxjs/toolkit": "^1.6.0",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/addons": "^6.1.21",
