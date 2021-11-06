@@ -144,7 +144,7 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-visualizer-plugin": "^0.1.11",
-    "webpackbar": "^5.0.0-3",
+    "webpackbar": "^5.0.0",
     "world-atlas": "^1.1.4"
   },
   "resolutions": {
