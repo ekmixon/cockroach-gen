@@ -4,7 +4,9 @@
   "description": "CockroachDB integration tests",
   "main": "",
   "scripts": {
-    "test": "mocha ."
+    "test": "mocha .",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Cockroach Labs",
   "license": "UNLICENSED",
@@ -15,9 +17,11 @@
     "pg": "7.3.0",
     "pg-error-codes": "1.0.0",
     "sequelize": "^4.37.1",
-    "sequelize-cockroachdb": "^1.0.2"
+    "sequelize-cockroachdb": "^1.0.2",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "**/lodash": "^4.17.11"
-  }
+  },
+  "snyk": true
 }
