@@ -11,6 +11,6 @@
   ],
   "devDependencies": {
     "@babel/runtime": "7.12.13",
-    "protobufjs": "6.8.6"
+    "protobufjs": "6.11.3"
   }
 }
