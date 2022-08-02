@@ -4,7 +4,7 @@ import psycopg2
 
 conn = psycopg2.connect('')
 cur = conn.cursor()
-cur.execute("SELECT 1, 2+{}".format(sys.argv[1]))
+cur.execute(f"SELECT 1, 2+{sys.argv[1]}")
 v = cur.fetchall()
 assert v == [(1, 5)]
 
