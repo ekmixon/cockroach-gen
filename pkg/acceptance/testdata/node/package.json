@@ -9,7 +9,7 @@
   "author": "Cockroach Labs",
   "license": "UNLICENSED",
   "devDependencies": {
-    "mocha": "4.0.1"
+    "mocha": "10.1.0"
   },
   "dependencies": {
     "pg": "7.3.0",
