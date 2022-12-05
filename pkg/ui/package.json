@@ -105,7 +105,7 @@
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "fetch-mock": "^5.9.4",
     "file-loader": "^5.0.2",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
