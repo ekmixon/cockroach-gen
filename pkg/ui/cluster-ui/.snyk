@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - astroturf > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - astroturf > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2023-05-24T15:35:40.208Z'
+    - babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-05-24T15:35:40.208Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest-environment-enzyme > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - '@storybook/react > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest-environment-enzyme > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest-enzyme > jest-environment-enzyme > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
+    - '@storybook/react > @storybook/core > @storybook/core-server > @storybook/builder-webpack4 > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2023-05-24T15:35:40.208Z'
+    - jest-enzyme > jest-environment-enzyme > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-24T15:35:40.208Z'
