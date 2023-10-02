@@ -71,7 +71,7 @@
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
     "antd": "^3.25.2",
-    "astroturf": "^0.10.2",
+    "astroturf": "^1.0.0",
     "babel-jest": "^26.2.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-import": "^1.13.3",
