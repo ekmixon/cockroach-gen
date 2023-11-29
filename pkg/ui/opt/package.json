@@ -3,7 +3,7 @@
     "@cypress/webpack-preprocessor": "^5.1.2",
     "@testing-library/cypress": "^7.0.4",
     "@types/cypress-image-snapshot": "^3.1.2",
-    "cypress": "^4.7.0",
+    "cypress": "^7.6.0",
     "cypress-image-snapshot": "^3.1.1",
     "webpack-dashboard": "^3.2.0"
   },
