@@ -1,4 +1,4 @@
-FROM golang:1.16
+FROM golang:bookworm
 WORKDIR /build
 COPY . .
 RUN ["/build/build.sh"]
