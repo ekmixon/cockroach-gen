@@ -1,0 +1,244 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/cli > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/cli > lodash'
+    - '@babel/core > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > lodash'
+    - '@babel/core > @babel/generator > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > @babel/generator > lodash'
+    - '@babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > @babel/helper-module-transforms > lodash'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > babel-plugin-react-docgen > lodash'
+    - '@typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @typescript-eslint/eslint-plugin >
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @typescript-eslint/parser > @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-modules-amd >
+          @babel/helper-module-transforms > lodash
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - '@storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addons > @storybook/api > @storybook/csf > lodash'
+    - '@cockroachlabs/eslint-config > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @cockroachlabs/eslint-config > @typescript-eslint/parser >
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > babel-plugin-react-docgen > react-docgen >
+          @babel/core > lodash
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-optional-chaining > @babel/helper-skip-transparent-expression-wrappers > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-optional-chaining >
+          @babel/helper-skip-transparent-expression-wrappers > @babel/types >
+          lodash
+    - '@babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - '@storybook/addon-actions > @storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addon-actions > @storybook/addons > @storybook/api >
+          @storybook/csf > lodash
+    - '@storybook/addon-links > @storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addon-links > @storybook/addons > @storybook/api >
+          @storybook/csf > lodash
+    - '@storybook/react > @storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @storybook/addons > @storybook/api > @storybook/csf
+          > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > @babel/generator >
+          lodash
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/generator > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > babel-plugin-react-docgen > react-docgen >
+          @babel/core > @babel/generator > lodash
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > babel-plugin-react-docgen > react-docgen >
+          @babel/core > @babel/helper-module-transforms > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - '@storybook/react > @babel/preset-react > @babel/plugin-transform-react-pure-annotations > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @babel/preset-react >
+          @babel/plugin-transform-react-pure-annotations >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-object-rest-spread > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-object-rest-spread >
+          @babel/plugin-transform-parameters > @babel/helper-get-function-arity
+          > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > lodash
+    - '@babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-typescript > @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-member-expression-to-functions > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
+    - '@babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-typescript > @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > @babel/generator > lodash
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > babel-plugin-react-docgen > react-docgen >
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addons > @storybook/api > @storybook/theming >
+          @emotion/core > @emotion/css > babel-plugin-emotion >
+          @babel/helper-module-imports > @babel/types > lodash
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > babel-plugin-react-docgen > react-docgen >
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > @babel/generator >
+          lodash
+    - '@storybook/addon-actions > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addon-actions > @storybook/addons > @storybook/api >
+          @storybook/theming > @emotion/core > @emotion/css >
+          babel-plugin-emotion > @babel/helper-module-imports > @babel/types >
+          lodash
+    - '@storybook/addon-links > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addon-links > @storybook/addons > @storybook/api >
+          @storybook/theming > @emotion/core > @emotion/css >
+          babel-plugin-emotion > @babel/helper-module-imports > @babel/types >
+          lodash
+    - '@storybook/react > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-08-12T20:15:10.385Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @storybook/addons > @storybook/api >
+          @storybook/theming > @emotion/core > @emotion/css >
+          babel-plugin-emotion > @babel/helper-module-imports > @babel/types >
+          lodash
