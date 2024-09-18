@@ -119,7 +119,7 @@
     "redux-saga": "1.1.3",
     "redux-saga-test-plan": "4.0.0-beta.2",
     "reselect": "^4.0.0",
-    "sass": "^1.34.0",
+    "sass": "^1.79.0",
     "sass-loader": "^10.2.0",
     "sinon": "^9.0.2",
     "source-map-loader": "^0.2.4",
