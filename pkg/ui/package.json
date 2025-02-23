@@ -94,7 +94,7 @@
     "babel-plugin-import": "^1.12.2",
     "bytebuffer": "^5.0.1",
     "cache-loader": "^4.1.0",
-    "chai": "^4.1.0",
+    "chai": "^4.3.10",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^3.4.0",
     "d3": "<4.0.0",
